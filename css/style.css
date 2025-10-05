@@ -12,9 +12,13 @@ header{
     min-height: 100px;
     background-color: lightblue;
 }
+footer{
+    min-height: 100px;
+    background-color: grey;
+}
 .flex{
     display: flex ;
-    border: 1px solid black;
+    
 
 }
 .mainbox{
@@ -23,6 +27,9 @@ header{
 nav{
     width: 2000px;
     height: 40px;
+}
+.box-footer{
+    min-height: 75px;
 }
 .bg-yellow{
     background-color: yellow;
@@ -33,18 +40,44 @@ nav{
 .bg-lightgrey{
     background-color: lightgrey;
 }
+.bg-grey{
+    background-color: grey;
+}
+.bg-pink{
+    background-color: pink;
+}
 .jc-content-center{
     justify-content: center;
 }
 .jc-content-end{
     justify-content: end;
 }
+.jc-content-start{
+    justify-content: start;
+}
+.jc-content-between{
+    justify-content: space-between;
+}
 .aitems{
     align-items: center;
 
 }
+.aitems-end{
+    align-items: end;
+}
 .logo{
     width: 25%;
+    padding: 2px;
+
+}
+.logo-footer{
+    
+    padding: 5px;
+
+}
+.bottone{
+   
+    padding: 2px;
 
 }
 .login{
@@ -68,12 +101,26 @@ nav{
 .pink{
     background-color: pink;
     min-height: 800px;
-    width: 30%;
+    width: 40%;
 }
 .green{
     background-color: green;
     min-width: 2000px;
     min-height: 900px;
+}
+.gaqua{
+    background-color: rgb(0, 139, 139);
+
+}
+.acqua-content{
+    min-height: 800px;
+    width: 20%;
+
+}
+
+.border-solid{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 .order{
     order: -1;
